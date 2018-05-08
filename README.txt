@@ -2,4 +2,4 @@ Created some small projects using HTML, CSS, JavaScript, JQuery, Bootstrap, Font
 
 1. Random Quotes:
 Link:
-quote_random.surge.sh
+http://quote_random.surge.sh/
