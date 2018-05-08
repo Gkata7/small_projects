@@ -1,0 +1,40 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,500");
+.container-fluid, html{
+  background-color: #e74c3c;
+  font-family: "Raleway", sans-serif;
+}
+.container-fluid h1{
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.container-fluid p {
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+}
+.quotes{
+  background-color: #fff;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 7px;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+  color: #e74c3c;
+}
+#displayQuote{
+  font-size: 30px;
+}
+#displayAuthor{
+  font-size: 20px;
+  font-style: italic;
+}
+.btn-default{
+  margin-top: 20px;
+  margin-left: 30%;
+}
+i.fa.fa-quote-left{
+  font-size: 30px;
+}
