@@ -12,10 +12,10 @@
   border-radius: 5px;
   padding: 45px 0px;
 }
-.weatherDetail .temprature{
+.weatherDetail .temp{
   margin-top: 0px;
 }
-.weatherDetail .icon{
+.weatherDetail .iconPic{
   min-width: 130px;
   min-height: 130px;
 }
