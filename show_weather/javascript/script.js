@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var fahrenheit,celsius;
   var weatherUrl = "https://api.openweathermap.org/data/2.5/weather";
-  var apiKey = API KEY;
+  var apiKey = "06ca135e1b172b2bc2dfe6db7cf7b952";
   // getLatLong function will a call to geoip api to recieve user's location.
   getLatLong();
 
