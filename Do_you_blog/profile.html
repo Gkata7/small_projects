@@ -60,7 +60,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>Post One</h1>
+          <h1><i class="fas fa-user"></i> Edit Profile</h1>
         </div>
       </div>
     </div>
@@ -76,64 +76,57 @@
         </div>
         <div class="col-md-3">
           <a href="index.html" class="btn btn-success btn-block">
-            <i class="fas fa-check"></i> Save Changes
+            <i class="fas fa-lock"></i> Update Profile
           </a>
         </div>
         <div class="col-md-3">
-          <a href="index.html" class="btn btn-warning btn-danger btn-block text-white">
-            <i class="fas fa-trash"></i> Delete Post
+          <a href="index.html" class="btn btn-danger btn-block text-white">
+            <i class="fas fa-trash"></i> Delete Account
           </a>
         </div>
       </div>
     </div>
   </section>
-  <!----- Posts Details ----->
-  <section id="details">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <div class="card-header">
-              <h4>Edit Post</h4>
-            </div>
-            <div class="card-body">
-              <form>
-                <div class="form-group">
-                  <label for="title">Title</label>
-                  <input type="text" class="form-control" value="Post One">
-                </div>
-                <div class="form-group">
-                  <label for="category">Category</label>
-                  <select class="form-control">
-                    <option value="" selected>Web Development</option>
-                    <option value="">Tech Gadgets</option>
-                    <option value="">Business</option>
-                    <option value="">Health & Wellness</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="image">Upload Image</label>
-                  <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="image">
-                    <label for="image" class="custom-file-label">Choose File</label>
+    <!----- Profile ----->
+    <section id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-header">
+                <h4>Edit Profile</h4>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" value="Garrett Katashima">
                   </div>
-                  <small class="form-text text-dark">Max Size 3mb</small>
-                </div>
-                <div class="form-group">
-                  <label for="body">Body</label>
-                  <textarea name="editor1" class="form-control">Lorem ipsum dolor, sit amet 
-                    consectetur adipisicing elit. Cumque amet earum id neque voluptate necessitatibus 
-                    quidem mollitia, aliquam autem at ex laboriosam obcaecati excepturi delectus? Minima 
-                    laborum sed officia deleniti?
-                  </textarea>
-                </div>
-              </form>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" value="garrett@garrett.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Bio</label>
+                    <textarea class="form-control" value="Garrett Katashima" name="editor1">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate saepe 
+                      explicabo rerum, nulla porro voluptas obcaecati dolore molestias voluptatibus 
+                      accusamus aliquam excepturi odit facere provident perferendis iste! Velit, 
+                      laborum quo?
+                    </textarea>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3">
+            <img src="img/avatar.png" alt="" class="d-block img-fluid mb-3">
+            <button class="btn btn-primary btn-block">Edit Image</button>
+            <button class="btn btn-danger btn-block">Delete Image</button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   <!----- Footer Section ----->
   <footer id="main-footer" class="bg-dark text-white p-5 mt-5">
     <div class="container">
