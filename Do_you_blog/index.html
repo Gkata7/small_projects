@@ -22,13 +22,13 @@
           <li class="nav-item px-2">
             <a href="index.html" class="nav-link active">Home</a>
           </li>
-          <li class="nav-item active px-2">
+          <li class="nav-item px-2">
             <a href="posts.html" class="nav-link">Posts</a>
           </li>
-          <li class="nav-item active px-2">
+          <li class="nav-item px-2">
             <a href="categories.html" class="nav-link">Categories</a>
           </li>
-          <li class="nav-item active px-2">
+          <li class="nav-item px-2">
             <a href="users.html" class="nav-link">Users</a>
           </li>
         </ul>
@@ -80,7 +80,7 @@
           </a>
         </div>
         <div class="col-md-3">
-          <a href="#" class="btn btn-warning btn-block" data-toggle="modal" data-target="#addUser">
+          <a href="#" class="btn btn-warning btn-block text-white" data-toggle="modal" data-target="#addUser">
             <i class="fas fa-plus"></i> Add User
           </a>
         </div>
@@ -162,7 +162,7 @@
     <div class="modal-dialog modal-md">
       <div class="modal-content">
         <div class="modal-header bg-warning text-white">
-          <h5 class="modal-title">Add Category</h5>
+          <h5 class="modal-title">Add User</h5>
           <button class="close" data-dismiss="modal">
             <span>&times;</span>
           </button>
@@ -193,8 +193,118 @@
       </div>
     </div>
   </div>
-
-
+  <!----- Post Dashboard ----->
+  <section id="posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card">
+            <div class="card-header">
+              <h4>Latest Posts</h4>
+            </div>
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Date</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Post One</td>
+                  <td>Web Development</td>
+                  <td>January 20, 2020</td>
+                  <td>
+                    <a href="details.html" class="btn btn-primary">
+                      <i class="fas fa-angle-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Post Two</td>
+                  <td>Tech Gadgets</td>
+                  <td>April 2, 2020</td>
+                  <td>
+                    <a href="details.html" class="btn btn-primary">
+                      <i class="fas fa-angle-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Post Three</td>
+                  <td>Business</td>
+                  <td>June 18, 2020</td>
+                  <td>
+                    <a href="details.html" class="btn btn-primary">
+                      <i class="fas fa-angle-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Post Four</td>
+                  <td>Health & Wellness</td>
+                  <td>August 3, 2020</td>
+                  <td>
+                    <a href="details.html" class="btn btn-primary">
+                      <i class="fas fa-angle-right"></i> Details
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-danger text-white mb-3">
+            <div class="card-body">
+              <h3>Posts</h3>
+              <h4 class="display-4">
+                <i class="fas fa-pencil"></i> 4
+              </h4>
+              <a href="posts.html" class="btn btn-outline-light">View</a>
+            </div>
+          </div>
+          <div class="card text-center bg-primary text-white mb-3">
+            <div class="card-body">
+              <h3>Categories</h3>
+              <h4 class="display-4">
+                <i class="fas fa-file"></i> 4
+              </h4>
+              <a href="categories.html" class="btn btn-outline-light">View</a>
+            </div>
+          </div>
+          <div class="card text-center bg-warning text-white mb-3">
+            <div class="card-body">
+              <h3>User</h3>
+              <h4 class="display-4">
+                <i class="fas fa-users"></i> 4
+              </h4>
+              <a href="users.html" class="btn btn-outline-light">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----- Footer Section ----->
+  <footer id="main-footer" class="bg-dark text-white p-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-center">
+            Copyright &copy; <span id="year"></span> Do You Blog?
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
